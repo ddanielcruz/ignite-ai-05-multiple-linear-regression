@@ -4,13 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pandas = "*"
 scikit-learn = "*"
 scipy = "*"
 matplotlib = "*"
 seaborn = "*"
 gradio = "*"
+numpy = "==1.26.4"
 pingouin = "*"
+sweetviz = "*"
+pandas = "*"
 
 [dev-packages]
 ipykernel = "*"
